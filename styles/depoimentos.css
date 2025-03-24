@@ -1,0 +1,44 @@
+.depoimentos {
+    padding-bottom: 6em;
+}
+
+.depoimentos-container {
+    margin: 0 5em;
+    padding: 4em 4em;
+    background-color: rgba(195, 25, 25, 0.03);
+    text-align: center;
+    border-radius: 16px;
+}
+
+.depoimentos-container__titulo {
+    color: var(--vermelho-principal);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.depoimentos-container__fala {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    color: var(--cinza-principal);
+    margin-top: 16px;
+}
+
+.depoimentos__avatar {
+    margin-top: 2em;
+}
+
+.depoimentos-container__nome {
+    margin-top: 1em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--cinza-principal);
+}
+
+.depoimentos-container__cargo {
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}

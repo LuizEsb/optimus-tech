@@ -1,0 +1,27 @@
+@import url("/styles/navbar.css");
+@import url("/styles/header.css");
+@import url("/styles/metricas.css");
+@import url("/styles/vagas.css");
+@import url("/styles/depoimentos.css");
+@import url("/styles/footer.css");
+
+:root {
+    --cinza-logo: #3A404E;
+    --cinza-principal: #101828;
+    --cinza-secundario: #667085;
+    --fonte-principal: "Inter", sans-serif;
+    --vermelho-principal: #8E2424;
+    --cinza-rodape: #F9FAFB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-principal);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
